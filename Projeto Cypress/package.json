@@ -1,0 +1,21 @@
+{
+  "name": "test-tecnico",
+  "version": "1.0.0",
+  "description": "Teste Tecnico QA Cypress PmWeb",
+  "main": "src/index.html",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:open:mobile": "cypress open --config viewportWidth=410 viewportWidth=860",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoSaidel/TesteTecnicoQApmweb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.5.0"
+  }
+}
