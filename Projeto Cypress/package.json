@@ -17,5 +17,9 @@
   "license": "MIT",
   "devDependencies": {
     "cypress": "^13.5.0"
+  },
+  "dependencies": {
+    "npm": "^10.2.3",
+    "yarn": "^1.22.19"
   }
 }
