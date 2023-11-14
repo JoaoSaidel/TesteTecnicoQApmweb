@@ -2,10 +2,10 @@
 
 # Mudando as políticas do Power Shell (https://balta.io/blog/node-npm-instalacao-configuracao-e-primeiros-passos)
 
-# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned (para arrumar o erro)
 
-# Instalar o node - npm install
+# Instalar o node - via npm instalar o yarn
 
-# npm install cypress --save-dev
+# 'yarn', para instalar as dependencais
 
-# npm install
+# VSCODE SEMPRE NO ADM
