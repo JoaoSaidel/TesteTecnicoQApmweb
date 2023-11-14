@@ -1,0 +1,17 @@
+// Seletor para o primeiro item da lista
+cy.get('.produtos .produto:first-child a[onclick^="remover"]').invoke('attr', 'onclick').then((onclickValue) => {
+  // Use expressão regular para extrair o número
+  const match = onclickValue.match(/'(\d+)'/);
+  
+  if (match) {
+    const numero = match[1];
+    cy.log('Número do primeiro onclick:', numero);
+  } else {
+    cy.log('Número não encontrado no primeiro onclick.');
+  }
+});
+
+        for (let i = 1; i < quantidadeDeItens + 1; i++) {
+            cy.get('span.remover').first().click({ force: true })
+      
+        }
